@@ -3,7 +3,7 @@ Repositorio creado
 
 07/11/22 - Versión 0.2 - ¡Ya está arriba!
 
-Hoy al subir esto se cumple un anhelado proyecto que entre otras cosas me motivó al principio a estudiar programación. ¡chan! Es un proyecto simple en realidad, pero bastante funcional. Se trata de un query a la API Graphs de Facebbok. 
+Hoy al subir esto se cumple un anhelado proyecto que entre otras cosas me motivó al principio a estudiar programación. ¡chan! Es un proyecto simple en realidad, pero bastante funcional. Se trata de un query a la API Graphs de Facebook. 
 
 Consiste en hacer un token y un user id para que a través de la biblioteca rfacebookstat se realice un query donde se pueden escoger las variables o insights de las campañas activas y que devuelva un dataframe.
 
