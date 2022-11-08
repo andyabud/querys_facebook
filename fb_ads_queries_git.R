@@ -1,8 +1,8 @@
 
 # Cargar Librerías --------------------------------------------------------
 
-library(tidyverse)
-library(rfacebookstat)
+library(tidyverse) # Por ahora para ocupar la librería dplyr
+library(rfacebookstat) # Para hacer el query
 
 
 # Crear Token -------------------------------------------------------------
