@@ -12,3 +12,11 @@ Se pueden agregar más parámetros en el operador fields al momento de hacer el 
 Luego de que se genere el dataframe se cambian los tipos a las variables de la base de datos para poder realizar operaciones como medias, boxplots, series de tiempo entre otras.
 
 Por último se crea una variable adicional que es el día de la semana de la medición, esta variable es categórica y puede ser ocupada posteriormente para realizar regresiones o modelos de machine learning.
+
+08/11/22 - Versión 0.4 - Primeras iteraciones y mejoras
+
+Se genera un query más extenso y se trabajan las variables que entrega:
+
+- Se transforma la variable dia_semana a factor
+- Se crea variable "costo_like" a partir de cálculos entre 2 variables (gasto/likes)
+- Se ordenan las variables dentro del dataframe
