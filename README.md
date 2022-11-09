@@ -26,3 +26,5 @@ Se genera un query más extenso y se trabajan las variables que entrega:
 Se limpió el código y se cambió la metodología de selección de variables (o columnas). En las versiones anteriores se eliminaban las columnas que no se necesitaban. Ahora a partir de la función select se escogen las variables y se ordenan directamente en la selección, evitando así tener que ordenarlas posteriormente y ahorrando un par de líneas de código.
 
 Además de eso se agrega la función de filtrar solamente las campañas que se necesiten a través de la función stringr::str_detect, esto básicamente filtra por la condición "contiene: " lo que permite un poco más de flexibilidad al momento de ingresar el filtro.
+
+Se le agrega la función clipr:write_clip() al final para copiar el código en el portapapeles y luego pegarlo a una hoja de cálculo por ejemplo.
