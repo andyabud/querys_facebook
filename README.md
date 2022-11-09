@@ -20,3 +20,9 @@ Se genera un query más extenso y se trabajan las variables que entrega:
 - Se transforma la variable dia_semana a factor
 - Se crea variable "costo_like" a partir de cálculos entre 2 variables (gasto/likes)
 - Se ordenan las variables dentro del dataframe
+
+09/11/22 - Versión 0.6 - Optimización del código
+
+Se limpió el código y se cambió la metodología de selección de variables (o columnas). En las versiones anteriores se eliminaban las columnas que no se necesitaban. Ahora a partir de la función select se escogen las variables y se ordenan directamente en la selección, evitando así tener que ordenarlas posteriormente y ahorrando un par de líneas de código.
+
+Además de eso se agrega la función de filtrar solamente las campañas que se necesiten a través de la función stringr::str_detect, esto básicamente filtra por la condición "contiene: " lo que permite un poco más de flexibilidad al momento de ingresar el filtro.
